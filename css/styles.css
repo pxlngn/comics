@@ -2,11 +2,40 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1;
     font-family: sans-serif;
-    background: #333;
-    color: #ccc;
+    background: #053F66;
+    color: #9AD1F7;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-top: 1px solid #4382AF;
+    line-height: 1.5;
+}
+
+th {
+    padding: 10px 20px;
+    font-weight: normal;
+    background: #000;
+}
+th:last-child {
+    text-align: right;
+    width: 30%;
+}
+
+td {
+    padding: 10px 20px;
+    border-top: 1px solid #4382AF;
+}
+
+tr {
+    padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -17,8 +46,8 @@ body {
 }
 
 header {
-    padding: 1rem;
-    background: #212121;
+    padding: 20px 20px;
+    background: #0364A5;
 }
 
 main {
@@ -26,16 +55,13 @@ main {
 }
 
 h1 {
-    color: #fff;
+    color: #000;
     font-size: 30px;
 }
 
 h3 {
-    font-size: 18px;
-    /* background: #ccc; */
-    padding: 10px 15px;
-    color: #fff;
-    border-top: 1px solid #212121;
+    font-size: 20px;
+    color: #9AD1F7;
 }
 
 h1, h3, p {
