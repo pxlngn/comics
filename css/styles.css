@@ -26,7 +26,8 @@ th {
 }
 th:last-child {
     text-align: right;
-    width: 30%;
+    width: 40%;
+    white-space: nowrap;
 }
 
 td {
