@@ -47,8 +47,16 @@ tr {
 }
 
 header {
-    padding: 20px 20px;
+    padding: 50px 20px;
     background: #0364A5;
+}
+
+.hero {
+}
+
+header.hero-captain-america {
+    background: url('../imgs/hero_cap-america.png');
+background-size: cover;
 }
 
 main {
@@ -56,8 +64,11 @@ main {
 }
 
 h1 {
-    color: #000;
-    font-size: 30px;
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
 h3 {
