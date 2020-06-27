@@ -51,12 +51,17 @@ header {
     background: #0364A5;
 }
 
-.hero {
+header.hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header.hero-captain-america {
-    background: url('../imgs/hero_cap-america.png');
-background-size: cover;
+    background-image: url('../imgs/hero_cap-america.png');
+}
+header.hero-xmen {
+    background-image: url('../imgs/hero_xmen.png');
 }
 
 main {
