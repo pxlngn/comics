@@ -63,6 +63,9 @@ header.hero-captain-america {
 header.hero-xmen {
     background-image: url('../imgs/hero_xmen.png');
 }
+header.hero-batman {
+    background-image: url('../imgs/hero_batman.png');
+}
 
 main {
     padding-bottom: 2rem;
