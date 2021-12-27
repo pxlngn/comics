@@ -111,7 +111,9 @@ ul ul {
 .index li {
   padding: 10px 20px;
   border-top: 1px solid #4382AF;
-  color: #9AD1F7 !important;
   font-size: 24px;
   text-align: center;
+}
+
+.index li a {  color: #9AD1F7 !important;
 }
