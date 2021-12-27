@@ -107,3 +107,9 @@ ul ul {
     padding: 0 0 0 1em;
     margin: 0 0 1.5rem 1.5rem;
 }
+
+.index li {
+  padding: 10px 20px;
+  border-top: 1px solid #4382AF;
+  color: #9AD1F7;
+}
